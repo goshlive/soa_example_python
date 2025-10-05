@@ -3,7 +3,7 @@
 There are two type of SOA in this demo (SOAP & REST). Navigate to the respective folder and do the following:
 
 ### 1. Install dependencies
-```pip install spyne zeep lxml```
+```pip install flask flasgger requests mysql-connector-python spyne zeep lxml```
 
 ### 2. Run micro-service
 ```python micro_server.py```
