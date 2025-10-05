@@ -1,1 +1,1 @@
-pip install spyne zeep lxml
+pip install Flask spyne zeep lxml
