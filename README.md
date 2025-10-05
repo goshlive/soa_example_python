@@ -8,10 +8,12 @@ There are two type of SOA in this demo (SOAP & REST). Navigate to the respective
 ### 2. Run micro-service
 ```python micro_server.py```
 <br>Access the WSDL at: `http://localhost:8001?wsdl`
+<br>For REST service, the Swagger api can be accessed at: `http://localhost:8001/apidocs/`
 
 ### 3. Run other servies
 ```python main_server.py```
 <br>Access the WSDL at: `http://localhost:8000?wsdl`
+<br>For REST service, the Swagger api can be accessed at: `http://localhost:8000/apidocs/`
 
 ### 4. Execute client
 ```python client.py```
